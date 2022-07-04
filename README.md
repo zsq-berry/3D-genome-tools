@@ -1,1 +1,1 @@
-# HiC_3Dgenome
+# hic_tools
