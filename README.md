@@ -4,8 +4,9 @@ Dependence:
 ```
 pip install cooler
 pip install pandas
-juicer tools
 ```
+juicer_tools: https://github.com/aidenlab/juicer/wiki/Feature-Annotation
+
 1, cool2hic.py
 
 Transfer cool to matrix text.
