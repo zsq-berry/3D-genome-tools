@@ -1,14 +1,19 @@
 # hic_tools
 
+Dependence:
+```
+pip install cooler
+pip install pandas
+juicer tools
+```
 1, cool2hic.py
 
-Transfer cool to hic.
+Transfer cool to matrix text.
 ```
-python3 cool2hic.py -i test.mcool/test.cool -r 10000
+python3 cool2hic.py -i test.mcool/test.cool -r resolution
 ```
-Options:
-  -h, --help            show this help message and exit
-  -i <file>, --input=<file>
-                        Input cool or mcool file.
-  -r <int>, --resolution=<int>
-                        Resolution for the output hic file.
+
+2, juicer_tools transfer from matrix text to hic.
+```
+java -Xmx20g -jar ~/packages/juicer_tools.jar pre -r resolution -d matrix.txt.gz name.hic genome
+```
