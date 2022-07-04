@@ -4,8 +4,8 @@ Dependence:
 ```
 pip install cooler
 pip install pandas
-juicer_tools: https://github.com/aidenlab/juicer/wiki/Feature-Annotation
 ```
+juicer_tools: https://github.com/aidenlab/juicer/wiki/Feature-Annotation
 
 1, cool2hic.py
 
