@@ -1,6 +1,6 @@
 # Cooler to hic
 
-Dependence:
+Dependences:
 ```
 pip install cooler
 pip install pandas
