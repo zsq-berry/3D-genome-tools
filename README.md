@@ -2,8 +2,6 @@
 
 1, cool2hic.py
 
-Usage: cool2hic.py [options]
-
 Transfer cool to hic.
 
 Options:
