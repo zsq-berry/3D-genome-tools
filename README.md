@@ -9,7 +9,7 @@ juicer_tools: https://github.com/aidenlab/juicer/wiki/Feature-Annotation
 
 1, cool2hic.py
 
-Transfer cool to matrix text.
+Transfer cool to matrix.txt.gz.
 ```
 python3 cool2hic.py -i test.mcool/test.cool -r resolution
 ```
