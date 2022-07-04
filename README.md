@@ -1,4 +1,4 @@
-# hic_tools
+# Cooler to hic
 
 Dependence:
 ```
