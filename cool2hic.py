@@ -41,6 +41,6 @@ for i in chrom.name:
     hic_chr['frag2'] = 1
     names = ['str1','chrom1','start1','frag1','str2','chrom2','start2','frag2','count']
     hic_chr = hic_chr.reindex(columns=names)
-    hic_chr.to_csv('matrix.txt.gz',sep='\t', mode='a', index=None, header=None, compression='gzip')
+    hic_chr.to_csv('matrix.txt',sep='\t', mode='a', index=None, header=None)
     
 #===========================
