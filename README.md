@@ -18,6 +18,6 @@ python3 cool2hic.py -i test.mcool/test.cool -r resolution
 
 juicer_tools: https://github.com/aidenlab/juicer/wiki/Feature-Annotation
 ```
-gzip matrix.txt.gz matrix.txt
+gzip matrix.txt matrix.txt.gz
 java -Xmx20g -jar ~/packages/juicer_tools.jar pre -r resolution -d matrix.txt.gz name.hic genome
 ```
